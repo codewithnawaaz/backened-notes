@@ -1,0 +1,6 @@
+what is npm?
+npm stands for naan and paneer makhni...
+mazak nhi hai ye eariler it was named as node package manager ab package kya hota hai
+package means bane banaye code ka folder..
+ab jo npm hai isme ab sab trah ke pakage dale jate hai jaise react ke java ke c++ ke or bhut se to ab iska koi specfic name nahi hai ab isme random name genarate hot hai....
+nan paneer makhni
