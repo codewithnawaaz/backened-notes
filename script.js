@@ -22,14 +22,18 @@ const app = express();
 app.use(function (req, res, next) {
   next();
 });
+app.use(express.static("./public"));
+app.set("view engine", "ejs");
 
 app.get("/", function (req, res) {
-  res.send("Hello World");
+  res.render("index");
 });
+
 app.get("/profile/:username", function (req, res) {
   res.send(`hello this is form ${req.params.username}`);
 });
 app.get("/contact", function (req, res) {
-  res.send("hey i m from contact");
+  res.render("contact", { age: 12 });
 });
+
 app.listen(3000);
